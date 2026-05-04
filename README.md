@@ -24,8 +24,8 @@ graph LR
     
     style A fill:#1a1a2e,stroke:#e94560,stroke-width:2px
     style C fill:#1a1a2e,stroke:#0f3460,stroke-width:2px
-    style E fill:#16c79a,stroke:#16c79a,stroke-width:2px
-    style F fill:#e94560,stroke:#e94560,stroke-width:2px
+    style E fill:#0e8265,stroke:#16c79a,stroke-width:2px
+    style F fill:#ca1835,stroke:#e94560,stroke-width:2px
 ```
 
 ---
@@ -169,8 +169,9 @@ xychart-beta
     title "Pass Rate: Vibecoders vs MANTIS (Projetos PME RS)"
     x-axis ["Secrets\nHardcodeados", "Tenant\nIsolation", "Security\nPatterns", "Tests\nCobertura", "Docs\nCompletas"]
     y-axis "Conformidade %" 0 --> 100
-    bar [32, 26, 59, 8, 12]  # Vibecoders
-    line [100, 98.5, 96.2, 94.1, 97.8]  # MANTIS
+    bar [32, 26, 59, 8, 12] 
+    line [100, 98.5, 96.2, 94.1, 97.8]  
+    
 ```
 
 | Métrica                                   | Vibecoders (Média RS) | MANTIS AGENTIC  | Diferença    |
@@ -376,8 +377,8 @@ graph LR
     
     style A fill:#1a1a2e,stroke:#e94560,stroke-width:2px
     style C fill:#1a1a2e,stroke:#0f3460,stroke-width:2px
-    style E fill:#16c79a,stroke:#16c79a,stroke-width:2px
-    style F fill:#e94560,stroke:#e94560,stroke-width:2px
+    style E fill:#063a2d,stroke:#16c79a,stroke-width:2px
+    style F fill:#820f22,stroke:#e94560,stroke-width:2px
 ```
 
 ---
@@ -521,8 +522,8 @@ xychart-beta
     title "Pass Rate: Vibecoders vs MANTIS (Proyectos PYME RS)"
     x-axis ["Secrets\nHardcodeados", "Tenant\nIsolation", "Security\nPatterns", "Tests\nCobertura", "Docs\nCompletas"]
     y-axis "Cumplimiento %" 0 --> 100
-    bar [32, 26, 59, 8, 12]  # Vibecoders
-    line [100, 98.5, 96.2, 94.1, 97.8]  # MANTIS
+    bar [32, 26, 59, 8, 12]  
+    line [100, 98.5, 96.2, 94.1, 97.8]  
 ```
 
 | Métrica                                   | Vibecoders (Promedio RS) | MANTIS AGENTIC  | Diferencia   |
